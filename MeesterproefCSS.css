@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+/* background-image: linearGradient (to bottom right, color, color, color) custom background colors. Als je dit in de body doet word de hele page */
+/* background image fixed to ignore lines and be smooth across the page, opacity to make t faded and doorzichtig. margin-top om de plek te aanpassen. */
+/* transparent cover when hovering it becomes clear. Auto margin etc werkt links en rechts gelijk */
+/* body margin 0 en title om helemaal boven te kunnen doen? */
+#Title {
+    text-align: center;
+    background-color: aqua;
+    margin:0;
+    padding:0;
+    border-radius: 2em;
+    font-family: 'Cookie', cursive;
+    position: relative;
+    bottom:8px; 
+    font-size: 2em;
+}
+
+.Nav {
+    list-style-type: none;
+    text-align: center;
+    background-color: crimson;
+    border-radius: 50px;
+    margin: 0;
+    padding: 1em;
+    position: relative;
+    bottom:8px;
+}
+
+.Nav li {
+    display: inline-block;
+    background-color: aqua;
+    font-size: 2em;
+    font-family: 'Cookie', cursive;
+    margin-left: 2em;
+    margin-right:2em;
+    border-radius: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Nav li:hover {
+    background-color: yellow;
+
+}
+
+#Aboutus {
+    text-align: center;
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    border-radius: 2em;
+    font-family: 'Cookie', cursive;
+    position: relative;
+    bottom: 8px;
+    font-size: 3em;
+}
+
+#Aboutustext {
+    font-family: 'Cookie', cursive;
+    font-size: 2em;
+}
+
+#AboutPhoto {
+    width: 400px;
+    border-radius: 200px;
+    position: relative;
+    left: 34em;
+}
+
+body {
+    background-color: blue;
+    /* overflow-y: hidden;
+    overflow-x: hidden; */
+    overflow: hidden;
+}
+
+#Mariophoto {
+    width: 133px;
+    object-fit: contain;
+    border-radius: 100px;
+    position: relative;
+    left: 17em;
+    top: 2em;
+}
+
+#MarioTitle {
+    position: absolute;
+    left: 295px;
+    top: 21em;
+    font-weight: bold;
+    font-family: 'Cookie', cursive;
+    color: greenyellow;
+}
+
+#MarioPagePhoto {
+    width: 22em;
+    border-radius: 11em;
+    object-fit: contain;
+    position: relative;
+    margin: 0;
+}
+
+#MarioPageText {
+    font-family: 'Cookie', cursive;
+    font-size: 3em;
+    position: relative;
+    top: -10em;
+    left: 8em;
+}
+
+#MarioTrailer {
+    font-family: 'Cookie', cursive;
+    font-size: 3em;
+    position: relative;
+    top: -10em;
+    left: 9em;
+}
+
+#COD {
+    width: 182px;
+    object-fit: contain;
+    border-radius: 100px;
+    position: relative;
+    left: 38em;
+    top: -1em;
+}
+
+#CODTitle {
+    position: absolute;
+    font-weight: bold;
+    left: 797px;
+    top: 18em;
+    font-family: 'Cookie', cursive;
+    color: greenyellow;
+}
+
+#CODPagePhoto {
+    width: 36em;
+    border-radius: 2em;
+    object-fit: contain;
+    position: relative;
+    top: 1em;
+    left: 1em;
+}
+
+#CODPageText {
+    font-family: 'Cookie', cursive;
+    font-size: 3em;
+    position: relative;
+    top: -7em;
+    left: 13em;
+}
+
+#CODTrailer {
+    font-family: 'Cookie', cursive;
+    font-size: 3em;
+    position: relative;
+    top: -7em;
+    left: 13em;
+}
+
+#ARK {
+    width: 195px;
+    object-fit: contain;
+    border-radius: 100px;
+    position: relative;
+    left: -5em;
+    top: 12em;
+}
+
+#ARKTitle {
+    position: absolute;
+    font-weight: bold;
+    left: 298px;
+    top: 31em;
+    font-family: 'Cookie', cursive;
+    color: greenyellow;
+}
+
+#ARKPagePhoto {
+    width: 31em;
+    border-radius: 2em;
+    object-fit: contain;
+    position: relative;
+    top: 1em;
+    left: 1em;
+}
+
+#ARKPageText {
+    font-family: 'Cookie', cursive;
+    font-size: 3em;
+    position: relative;
+    top: -6em;
+    left: 11em;
+}
+
+#ARKTrailer {
+    font-family: 'Cookie', cursive;
+    font-size: 3em;
+    position: relative;
+    top: -6em;
+    left: 11em;
+}
+
+#Valorant {
+    width: 148px;
+    object-fit: contain;
+    border-radius: 100px;
+    position: relative;
+    left: 15em;
+    top: 13em;
+}
+
+#ValorantTitle {
+    position: absolute;
+    font-weight: bold;
+    left: 792px;
+    top: 32em;
+    font-family: 'Cookie', cursive;
+    color: greenyellow;
+}
+
+#ValorantPagePhoto {
+    width: 25em;
+    border-radius: 2em;
+    object-fit: contain;
+    position: relative;
+    top: 1em;
+    left: 1em;
+}
+
+#ValorantPageText {
+    font-family: 'Cookie', cursive;
+    font-size: 3em;
+    position: relative;
+    top: -9em;
+    left: 9em;
+}
+
+#ValorantTrailer {
+    font-family: 'Cookie', cursive;
+    font-size: 3em;
+    position: relative;
+    top: -8em;
+    left: 10em;
+}
+
+.founder {
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    margin: 0;
+    padding: 1em;
+    background-color: crimson;
+    border-radius: 50px;
+    position: relative;
+    top: 375px;
+    font-size: 21px;
+}
+
+.founderAbout {
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    margin: 0;
+    padding: 1em;
+    background-color: crimson;
+    border-radius: 50px;
+    position: relative;
+    top: 164px;
+    font-size: 21px;
+}
+
+.founderMario {
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    margin: 0;
+    padding: 1em;
+    background-color: crimson;
+    border-radius: 50px;
+    position: relative;
+    top: 183px;
+    left: -432px;
+    font-size: 21px;
+}
+
+.founderCOD {
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    margin: 0;
+    padding: 1em;
+    background-color: crimson;
+    border-radius: 50px;
+    position: relative;
+    top: -97px;
+    left: -1px;
+    font-size: 21px;
+}
+
+.founderARK {
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    margin: 0;
+    padding: 1em;
+    background-color: crimson;
+    border-radius: 50px;
+    position: relative;
+    top: -74px;
+    left: -1px;
+    font-size: 21px;
+
+}
+
+.founderValorant {
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    margin: 0;
+    padding: 1em;
+    background-color: crimson;
+    border-radius: 50px;
+    position: relative;
+    top: -249px;
+    left: -1px;
+    font-size: 21px;
+    
+}
